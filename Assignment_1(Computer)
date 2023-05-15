@@ -1,0 +1,10 @@
+package org.system;
+
+public class Computer {
+
+	public void computerModel() {
+		String str = "Aerospace, Architecture, Biology";
+		System.out.println("Computer Models: "+str);
+
+	}
+}
