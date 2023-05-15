@@ -1,0 +1,28 @@
+package week3.day1;
+
+public class Students {
+	public void getStudentInfo(int id) {
+		System.out.println("Student ID: "+id);
+		
+	}
+	public void getStudentInfo(int id,String name) {
+		System.out.println("Student ID: "+id);
+		System.out.println("Student Name: "+name);
+		
+	}
+	public void getStudentInfo(String email,long phonenumber) {
+		System.out.println("Student email: "+email);
+		System.out.println("Student PhoneNumber: "+phonenumber);
+		
+	}
+
+	public static void main(String[] args) {
+		Students stud = new Students();
+		stud.getStudentInfo(7);
+		stud.getStudentInfo(10, "Saradha");
+		stud.getStudentInfo("sara@gmail.com", 9876543210l);
+		
+
+	}
+
+}
